@@ -4,6 +4,7 @@ byte 0
 byte1
 Για να μπορέσω να δω τι κάνει το supercalifragilisticexpialidocious, χρησιμοποίησα την εντολή: man supercalifragilisticexpialidocious. Έτσι είδα τα περιεχόμενα της εντολής και τον ζητούμενο κωδικό.
 
+byte2
 Αρχικά χρησιμοποίησα την εντολή ls για να εμφανιστεί το περιεχόμενο του τρέχοντος φακέλου: shakespeare.txt. Στην συνέχεια με την εντολή: grep "will find" shakespeare.txt εμφανίστηκε το παρακάτω κείμενο: He that sweetest rose will find
     That draw his knives i' th' war. Well, I will find him;
     If circumstances lead me, I will find
@@ -24,3 +25,12 @@ No one will find this: grep_and_you_will_find
     will breed no terror in the youth: he will find it comes from a
     The crown will find an heir. Great Alexander
 Παρατηρούμε ότι το κομμάτι που δεν ταιριάζει στο κείμενο είναι το: grep_and_you_will_find.
+
+byte3
+Αρχικά χρησιμοποίησα την εντολή ls για να εμφανιστούν τα δύο αρχεία (shakespeare.modified.txt  shakespeare.txt). μετά με την εντολή: diff shakespeare.txt shakespeare.modified.txt μου εμφανίστηκε το παρακάτω:
+11542c11542
+<     And all the men and women merely players;
+---
+>     And all the men and women merely programmers;
+Άρα η αλλαγή εντοπίστηκε στην γραμμή 11542 και η παλιά λέξη ήταν players ενώ η καινούργια είναι programmers.
+
