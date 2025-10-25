@@ -26,11 +26,13 @@ No one will find this: grep_and_you_will_find
     The crown will find an heir. Great Alexander
 Παρατηρούμε ότι το κομμάτι που δεν ταιριάζει στο κείμενο είναι το: grep_and_you_will_find.
 
-byte3
+Byte3
 Αρχικά χρησιμοποίησα την εντολή ls για να εμφανιστούν τα δύο αρχεία (shakespeare.modified.txt  shakespeare.txt). μετά με την εντολή: diff shakespeare.txt shakespeare.modified.txt μου εμφανίστηκε το παρακάτω:
 11542c11542
 <     And all the men and women merely players;
----
+
 >     And all the men and women merely programmers;
 Άρα η αλλαγή εντοπίστηκε στην γραμμή 11542 και η παλιά λέξη ήταν players ενώ η καινούργια είναι programmers.
 
+byte4
+Χρησιμοποίησα την εντολή ls και μου εμφάνισε το maze, οπότε έκανα cd maze και μου εμφάνισε: left right. επειδή δεν ήξερα ποιο απο τα δύο να διαλέξω χρησιμοποίησα το: -type f -name "cup.txt" και μεμφάνισε το μονοπάτι:./left/right/8/cup.txt. Τέλοσ με cat ./left/right/8/cup.txt βρήκα το ζητούμενο μηνυμα. 
